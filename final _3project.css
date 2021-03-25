@@ -1,3 +1,7 @@
+html {
+  overflow: visible;
+}
+
 /* خصائص الخلفية  */
 .img {
   position: relative;
@@ -282,26 +286,40 @@ hr {
   text-align: center;
   top: 520px;
 }
-
 .tesst {
-  top: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #435636;
-  color: #ffffff;
-  font-weight: bold;
-  position: absolute;
-  left: 50%;
-  z-index: 2;
-  width: 30%;
-  font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  top: 1020px;
+  margin-bottom: -350px;
+  color: #fff;
+  background-color: #435636;
+  position: absolute;
+  bottom: 0;
+  width: 30%;
 
+  margin-left: 473px;
+  margin-right: 100px;
+  height: 2.5rem; /* Footer height */
 }
 
+.tesst h2 {
+  margin: 0;
+}
+
+#p {
+  background-color: #435636;
+}
+
+.tesst .copyrights {
+  color: #fff !important;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  background: #373a40;
+
+  /* margin-bottom: 5000px; */
+}
+
+.social {
+  margin-bottom: 10px;
+}
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* الكلام المتحرك */
@@ -548,7 +566,6 @@ hr:not([size]) {
 .navigation {
   height: 60px;
   background: #373a40;
-
 }
 
 .brand {
@@ -567,10 +584,8 @@ hr:not([size]) {
   height: 60px;
   transition: all 0.2s ease-in-out;
   opacity: 0.5;
-    /* position: fixed; */
-
+  /* position: fixed; */
 }
-
 
 .brand a,
 .brand a:visited {
@@ -578,7 +593,6 @@ hr:not([size]) {
   text-decoration: none;
   height: 60px;
   /* position: fixed; */
-
 }
 .brand:hover {
   background: #2581dc;
@@ -591,7 +605,6 @@ hr:not([size]) {
   background-color: rgb(17, 17, 17);
   opacity: 10;
   /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.534), 0 3px 6px rgba(0, 0, 0, 0.534); */
-
 }
 
 .nav-container {
@@ -606,12 +619,10 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-
 }
 nav ul li {
   float: left;
   position: relative;
-
 }
 nav ul li a,
 nav ul li a:visited {
@@ -631,7 +642,6 @@ nav ul li a:visited {
   /* opacity: 0.5; */
   height: 60px;
   background: #373a40;
-
 }
 nav ul li a:hover,
 nav ul li a:hover {
@@ -754,10 +764,6 @@ article {
   padding: 10px;
 }
 
-
-
-
-
 /* .header {
   position: fixed;
   top: 0;
@@ -769,9 +775,8 @@ article {
   text-align: center;
 } */
 
-.topp{
+.topp {
   margin-top: 300px;
-  
 }
 
 /* 
@@ -794,4 +799,3 @@ article {
   top: 200px;
 }
  */
-
