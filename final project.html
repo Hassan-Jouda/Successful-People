@@ -8,23 +8,12 @@
     <link rel="stylesheet" href="final _3project.css" type="text/css" />
     <script src="final project.js"></script>
     <!-- Javascript in HTML ربط ملف  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-    />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- Owl -->
+    <!-- Owl -->
+    <!-- Owl -->
+    <!-- Owl -->
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -36,6 +25,18 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
       integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
       crossorigin="anonymous"
+    />
+    <!-- Owl -->
+    <!-- Owl -->
+    <!-- Owl -->
+    <!-- Owl -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
@@ -173,7 +174,11 @@
     </div>
 
     <!-- wow animate__bounce animate__animated animate__infinite -->
-    <div class="footer_wrapper">
+    <div
+      class="footer_wrappe wow animate__bounceInLeft animate__animated"
+      data-wow-duration="2s"
+      data-wow-delay="5s"
+    >
       <div class="tesst">
         <h2>Let's Keep In Touch!</h2>
         <footer id="p">
@@ -212,36 +217,45 @@
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous"
       ></script>
-      <script>
+      <!-- <script>
         (function ($) {
-          // Begin jQuery
+          $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+              loop: true,
+              margin: 10,
+              nav: true,
+              responsive: {
+                0: {
+                  items: 1,
+                },
+                600: {
+                  items: 1,
+                },
+                1000: {
+                  items: 1,
+                },
+              },
+            });
+          });
+
           $(function () {
-            // DOM ready
-            // If a link has a dropdown, add sub menu toggle.
             $('nav ul li a:not(:only-child)').click(function (e) {
               $(this).siblings('.nav-dropdown').toggle();
-              // Close one dropdown when selecting another
               $('.nav-dropdown').not($(this).siblings()).hide();
               e.stopPropagation();
             });
-            // Clicking away from dropdown will remove the dropdown class
             $('html').click(function () {
               $('.nav-dropdown').hide();
             });
-            // Toggle open and close nav styles on click
             $('#nav-toggle').click(function () {
               $('nav ul').slideToggle();
             });
-            // Hamburger to X toggle
             $('#nav-toggle').on('click', function () {
               this.classList.toggle('active');
             });
-          }); // end DOM ready
-        })(jQuery); // end jQuery
-      </script>
-      <script>
-        new WOW().init();
-      </script>
+          });
+        })(jQuery);
+      </script> -->
 
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
@@ -255,17 +269,12 @@
         crossorigin="anonymous"
       ></script>
       <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous"
-      ></script>
-      <script
         src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
         integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
         crossorigin="anonymous"
       ></script>
     </body>
-    <script>
+    <!-- <script>
       $(document).ready(function () {
         $('.owl-carousel').owlCarousel({
           loop: true,
@@ -284,7 +293,7 @@
           },
         });
       });
-    </script>
+    </script> -->
     <span class="top">
       <img
         id="scrollToTopBtn"
@@ -316,5 +325,41 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css"
     />
+    <!-- Owl -->
+    <!-- Owl -->
+    <!-- Owl -->
+    <!-- Owl -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Owl -->
+    <!-- Owl -->
+    <!-- Owl -->
+    <!-- Owl -->
+    <script>
+      $(document).ready(function () {
+        (function ($) {
+          $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+              0: {
+                items: 1,
+              },
+              600: {
+                items: 1,
+              },
+              1000: {
+                items: 1,
+              },
+            },
+          });
+        })(jQuery);
+      });
+    </script>
   </body>
 </html>
