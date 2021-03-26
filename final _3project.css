@@ -43,110 +43,13 @@
   margin-top: 0;
   text-align: center !important;
   margin: 0;
-  /* padding: 0rem 30rem;
-    padding: 50px; */
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-/* Home خصائص شريط  */
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #f4623a91;
-}
-li {
-    float: right;
-} 
-li a {
-    display: block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 14px 70px;
-    text-decoration: none;
-   background-color: #f4623a;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  opacity: 0.5;
-}
-.active {
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 90px;
-  text-decoration: none;
- background-color: #f4623a;
- float: right;
-left: 100px;
-}
-.active:hover {
-  color: rgb(255, 255, 255);
-  transform: scale(1.1);
-  background-color: rgba(17, 17, 17, 0.644);
-}
-li a:hover{
-color: rgb(255, 255, 255);
-transform: scale(1.1);
-background-color: rgba(17, 17, 17, 0.644);
-opacity: 10;
-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.534), 0 3px 6px rgba(0, 0, 0, 0.534);
-}
-li a::before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    left: 0;
-    height: 3px;
-    border-radius: 2px;
-    background: linear-gradient(130deg,#eeff00,#283e7a 100%,#ff0404 100%);
-  } */
-/* //////////////////////////////////////////////////////////////////// */
-
-/* /////////////////////////////////////////////////////////////// */
-
-/* .dropbtn {
-    background-color: #001000;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #00000;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none ;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  .show {
-    display:block;
-  }  */
-
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* الخط   */
@@ -193,21 +96,14 @@ hr {
 .rrr {
   font-size: 20px;
   color: rgb(255, 255, 255);
-  /* float: center;
-  text-align: center !important; */
+
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* مربع الكلام في الخلفية */
 .text-block {
-  /* position: absolute;
-  bottom: 8px;
-  left: 16px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px; */
+
   position: absolute;
 
   top: 50%;
@@ -231,7 +127,6 @@ hr {
 .button1 {
   color: #fff;
   background-color: #435636;
-  /* border-color: #ee3e0d; */
   border-radius: 4px;
   padding: 0 15px;
   cursor: pointer;
@@ -301,15 +196,7 @@ hr {
   font-family: 'Roboto';
 }
 
-/* .item {
-  height: 1000px;
-  padding-top: 620px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  font-size: 35px;
-  width: 300%;
-}
- */
+
 
 .owl-carousel {
   margin-top: 620px;
@@ -356,7 +243,6 @@ hr {
 
 .fa:hover {
   transform: scale(1.2);
-  /* background-color: rgba(17, 17, 17, 0.644); */
   opacity: 10;
 }
 
@@ -502,9 +388,7 @@ hr.dividerr {
   display: flex;
   justify-content: flex-end;
   padding: 16px;
-  /* background-color:#f4623a ; */
-  /* position: fixed;
-  bottom: 1.2rem; */
+
 }
 
 hr {
@@ -521,19 +405,10 @@ hr:not([size]) {
 
 .uuu {
   font-size: 20px;
-  /* background-color: #212121; */
   color: rgb(235, 235, 235) !;
 }
 
-/* 
-.tessst{
-  background-color: seashell;
-  top: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
+
 
 .navigation {
   height: 60px;
@@ -549,7 +424,6 @@ hr:not([size]) {
   font-size: 1.4em;
   float: left;
   right: 1155px;
-  /* color: #1D9AF2; */
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   width: 120px;
@@ -557,7 +431,6 @@ hr:not([size]) {
   height: 60px;
   transition: all 0.2s ease-in-out;
   opacity: 0.5;
-    /* position: fixed; */
 
 }
 
@@ -580,7 +453,6 @@ hr:not([size]) {
   transform: scale(1.1);
   background-color: rgb(17, 17, 17);
   opacity: 10;
-  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.534), 0 3px 6px rgba(0, 0, 0, 0.534); */
 
 }
 
@@ -605,20 +477,14 @@ nav ul li {
 }
 nav ul li a,
 nav ul li a:visited {
-  /* display: block;
-    padding: 0 40px;
-    line-height: 70px;
-    color: #ffffff;
-    text-decoration: none; */
+
   display: block;
   color: #ffffff;
   text-align: center;
   padding: 14px 70px;
   text-decoration: none;
-  /* background-color: #f4623a; */
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  /* opacity: 0.5; */
   height: 60px;
   background: #373a40;
 
@@ -632,7 +498,6 @@ nav ul li a:hover {
   transform: scale(1.1);
   background-color: rgb(17, 17, 17);
   opacity: 10;
-  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.534), 0 3px 6px rgba(0, 0, 0, 0.534); */
 }
 
 nav ul li a:not(:only-child):after,
@@ -652,7 +517,6 @@ nav ul li ul li a {
   position: absolute;
   display: none;
   z-index: 1;
-  /* box-shadow: 0 3px 12px rgb(0, 0, 0); */
 }
 
 /* Mobile navigation */
@@ -748,38 +612,13 @@ article {
 
 
 
-/* .header {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-}
-.header section {
-  text-align: center;
-} */
+
 
 .topp{
   margin-top: 300px;
   
 }
 
-/* 
-.tessst{
-  top: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #f4623a; 
-  color: #212529;
-  font-weight: bold;
-  position: absolute;
-  left: 60%;
-  z-index: 2;
-  width: 30%;
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
-  top: 200px;
-}
- */
+
+
 
