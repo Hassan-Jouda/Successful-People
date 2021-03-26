@@ -57,11 +57,9 @@
     overflow: hidden;
     background-color: #f4623a91;
 }
-
 li {
     float: right;
 } 
-
 li a {
     display: block;
     color: rgb(255, 255, 255);
@@ -73,27 +71,21 @@ li a {
   transition: all 0.2s ease-in-out;
   opacity: 0.5;
 }
-
-
 .active {
   display: block;
   color: #ffffff;
   text-align: center;
-
   padding: 14px 90px;
   text-decoration: none;
  background-color: #f4623a;
  float: right;
 left: 100px;
-
 }
-
 .active:hover {
   color: rgb(255, 255, 255);
   transform: scale(1.1);
   background-color: rgba(17, 17, 17, 0.644);
 }
-
 li a:hover{
 color: rgb(255, 255, 255);
 transform: scale(1.1);
@@ -101,7 +93,6 @@ background-color: rgba(17, 17, 17, 0.644);
 opacity: 10;
 box-shadow: 0 3px 6px rgba(0, 0, 0, 0.534), 0 3px 6px rgba(0, 0, 0, 0.534);
 }
-
 li a::before {
     content: "";
     position: absolute;
@@ -111,7 +102,6 @@ li a::before {
     height: 3px;
     border-radius: 2px;
     background: linear-gradient(130deg,#eeff00,#283e7a 100%,#ff0404 100%);
-
   } */
 /* //////////////////////////////////////////////////////////////////// */
 
@@ -764,7 +754,6 @@ article {
   z-index: 1;
   width: 100%;
 }
-
 .header section {
   text-align: center;
 } */
@@ -775,7 +764,6 @@ article {
 }
 
 /* 
-
 .tessst{
   top: 10px;
   position: absolute;
